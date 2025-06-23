@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Luiz</title>
+</head>
+
+<body>
+    <header class="container text-center py-5">
+        <h1 class="display-4">Olá, eu sou Luiz!</h1>
+        <p class="lead">Estudante do 3º ano do Ensino Médio na Escola Astrogildo.</p>
+        <p>Sou uma pessoa **protagonista, ágil e prestativa**, apaixonado por desenvolvimento de jogos! Faço aulas de programação na Alura e também concluí um curso de criação de jogos, onde desenvolvi diversos projetos para **celulares e computadores**. Tenho conhecimento de **inglês básico** e **espanhol intermediário**, com cursos em ambas as línguas.</p>
+
+        <h3 class="mt-4">Minhas Habilidades</h3>
+        <div>
+            <span class="badge bg-secondary me-2">Unreal Engine</span>
+            <span class="badge bg-secondary">Scratch</span>
+            </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="mb-4">Meus Projetos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Aventura no Labirinto (Nome de Exemplo)</h5>
+                        <p class="card-text">Este é um jogo de aventura em labirinto que desenvolvi durante meu curso, focado em lógica e exploração. Possui controles intuitivos e desafios crescentes para o jogador.</p>
+                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modal1">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Batalha Espacial (Nome de Exemplo)</h5>
+                        <p class="card-text">Um jogo de tiro espacial rápido e divertido, criado para demonstrar habilidades em colisão de objetos e gerenciamento de pontuação. Ideal para jogar no celular!</p>
+                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modal2">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida do Robô (Projeto Scratch)</h5>
+                        <p class="card-text">Um projeto interativo no Scratch onde um robô corre e desvia de obstáculos. Perfeito para introduzir conceitos de programação visual e lógica de jogos para iniciantes.</p>
+                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modal3">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Aventura no Labirinto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este jogo de aventura foi desenvolvido para computadores, focando na criação de ambientes complexos e na interação do jogador com o cenário. Aprendi a implementar sistemas de navegação, coleta de itens e introdução de desafios que exigem raciocínio lógico.</p>
+                    <p>Utilizei **Unreal Engine** para o desenvolvimento, explorando seus recursos de blueprinting para a lógica do jogo e design de níveis. A experiência me permitiu aprofundar em conceitos de game design e otimização de performance.</p>
+                    <img src="img/game-placeholder-1.png" class="img-fluid w-100 mt-3" alt="Imagem do jogo Aventura no Labirinto">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-outline-primary me-2" target="_blank">Ver Projeto <i class="bi bi-box-arrow-up-right"></i></a>
+                    <a href="#" class="btn btn-outline-secondary" target="_blank">Ver Código no GitHub <i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Batalha Espacial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O "Batalha Espacial" é um jogo rápido e divertido, ideal para dispositivos móveis. O foco foi criar uma experiência de jogo fluida, com sistema de pontuação e aumento progressivo da dificuldade. Desenvolvi este projeto para aprimorar minhas habilidades em detecção de colisão e gerenciamento de estado do jogo.</p>
+                    <p>Neste projeto, utilizei uma abordagem que me permitiu aprender sobre a otimização para performance em plataformas móveis e a criação de interfaces de usuário responsivas para diferentes tamanhos de tela.</p>
+                    <img src="img/game-placeholder-2.png" class="img-fluid w-100 mt-3" alt="Imagem do jogo Batalha Espacial">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-outline-primary me-2" target="_blank">Ver Projeto <i class="bi bi-box-arrow-up-right"></i></a>
+                    <a href="#" class="btn btn-outline-secondary" target="_blank">Ver Código no GitHub <i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Corrida do Robô (Projeto Scratch)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este é um projeto interativo de programação visual desenvolvido no **Scratch**. Ele demonstra a criação de um jogo simples de corrida onde o jogador controla um robô que deve desviar de obstáculos.</p>
+                    <p>O projeto foi fundamental para solidificar meu entendimento de **lógica de programação**, como loops, condicionais e detecção de eventos, de uma forma visual e divertida. É um excelente exemplo de como a programação pode ser acessível e criativa para iniciantes.</p>
+                    <img src="img/scratch-project-placeholder.png" class="img-fluid w-100 mt-3" alt="Imagem do projeto Scratch Corrida do Robô">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/SEU_ID_DE_PROJETO_SCRATCH/" class="btn btn-outline-primary" target="_blank">Ver Projeto no Scratch <i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container text-center py-4">
+        <h3 class="mb-3">Entre em Contato!</h3>
+        <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+            <a href="mailto:00001103939725SP@al.educacao.sp.gov.br" class="text-decoration-none text-dark d-flex align-items-center">
+                <i class="bi bi-envelope fs-4 me-2"></i> <span>00001103939725SP@al.educacao.sp.gov.br</span>
+            </a>
+            </div>
+        <p class="mt-4 text-muted">© 2025 Produzido por Luiz.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
